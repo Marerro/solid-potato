@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Simple Life</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,12 +20,14 @@
 
     <header>
         <nav>
+           <div class="nav__text">
             <h1>Living the simple life</h1>
             <h6>A blog exploring minimalism in life</h6>
+            </div>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li>About me</li>
-                <li>Recent posts</li>
+                <li><a href="aboutme.html">About me</a></li>
+                <li><a href="recentposts.html">Recent posts</a></li>
             </ul>
         </nav>
     </header>
@@ -35,8 +37,8 @@
     <!-- Article pradžia -->
 
     <article>
-        <div class="container__main">
-            <img class="container__figure" src="img/life.jpg" alt="FindingSimplicityInLife">
+        <div class="container__main1">
+            <img class="container__figure1" src="img/life.jpg" alt="FindingSimplicityInLife">
         </div>
         <div class="article__body_first">
             July 19, 2019 | 3 comments
@@ -47,18 +49,31 @@
                 approach though, in how you can find simplicity in the life you already living.
             </p>
             <a href="">Continue reading</a>
+            <hr class="article__line">
         </div>
+
+
         <div class="container__main">
-            <img class="container__figure" src="img/food.jpg" alt="KeepingCookingSimple">
+           <div class="divas">
+            <img class="container__figure" src="img/food.jpg"
+             alt="KeepingCookingSimple">
+             <span class="visible">July 19, 2019 | 3 comments</span>
+             <div class="anotherDiv"></div>
+            <h3>Keeping cooking simple</h3>
+             <p>Food is a very important part of everyone's life. If you want to be healthy, you have to eat healthy. One
+                of the easiest ways to do that is to keep your cooking nice and simple.
+            </p>
         </div>
-        <div class="article__body">
+            </div> 
+        </div>
+        <!-- <div class="article__body">
             <h3>Keeping cooking simple</h3>
             <span>July 19, 2019 | 3 comments</span>
         </div>
         <p>Food is a very important part of everyone's life. If you want to be healthy, you have to eat healthy. One
             of the easiest ways to do that is to keep your cooking nice and simple.
         </p>
-        <a href="">Continue reading</a>
+        <a href="">Continue reading</a> -->
 
         <div class="container__main">
             <img class="container__figure" src="img/work.jpg" alt="SimplicityandWork">
